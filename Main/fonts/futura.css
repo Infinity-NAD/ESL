@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "Futura";
+	src: url("futura-book.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="futura-"]:before, [class*=" futura-"]:before,
+[class^="futura-"]:after, [class*=" futura-"]:after {   
+	font-family: "Arvo";
+    font-size: 20px;
+	font-style: normal;
+	margin-left: 20px;
